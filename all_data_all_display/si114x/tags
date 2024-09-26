@@ -1,0 +1,374 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+ADC_DIV1024	./Si114x_functions.h	389;"	d
+ADC_DIV128	./Si114x_functions.h	386;"	d
+ADC_DIV16	./Si114x_functions.h	383;"	d
+ADC_DIV2	./Si114x_functions.h	380;"	d
+ADC_DIV2048	./Si114x_functions.h	390;"	d
+ADC_DIV256	./Si114x_functions.h	387;"	d
+ADC_DIV32	./Si114x_functions.h	384;"	d
+ADC_DIV4	./Si114x_functions.h	381;"	d
+ADC_DIV512	./Si114x_functions.h	388;"	d
+ADC_DIV64	./Si114x_functions.h	385;"	d
+ADC_DIV8	./Si114x_functions.h	382;"	d
+ADC_NORM	./Si114x_functions.h	379;"	d
+ALIGN_LEFT	./si114x_functions.c	670;"	d	file:
+ALIGN_RIGHT	./si114x_functions.c	671;"	d	file:
+ALS_ENCODING_MASK	./Si114x_functions.h	290;"	d
+ALS_IR_ADC_MISC_MASK	./Si114x_functions.h	347;"	d
+ALS_IR_LSB	./Si114x_functions.h	288;"	d
+ALS_IR_TASK	./Si114x_functions.h	230;"	d
+ALS_VIS_ADC_MISC_MASK	./Si114x_functions.h	348;"	d
+ALS_VIS_LSB	./Si114x_functions.h	287;"	d
+ALS_VIS_TASK	./Si114x_functions.h	229;"	d
+AMA_KEY_3A	./Si114x_functions.h	404;"	d
+ANA_KEY_38	./Si114x_functions.h	402;"	d
+ANA_KEY_39	./Si114x_functions.h	403;"	d
+ANA_KEY_3B	./Si114x_functions.h	405;"	d
+AUX_LSB	./Si114x_functions.h	289;"	d
+AUX_TASK	./Si114x_functions.h	231;"	d
+BIT	./Si114x_types.h	/^typedef char BIT;$/;"	t
+Compress	./si114x_functions.c	/^u8 Compress(u16 input) \/\/ input should be a 16-bit unsigned value$/;"	f
+DEBUG_PRINT_OUTPUT	./si114x_functions.c	554;"	d	file:
+DEBUG_PRINT_OUTPUT_2	./si114x_functions.c	555;"	d	file:
+DEBUG_UCOEF	./si114x_functions.c	556;"	d	file:
+DisableSi114xInterrupt	./si114x_sys_out.c	/^void DisableSi114xInterrupt ()$/;"	f
+EnableSi114xInterrupt	./si114x_sys_out.c	/^void EnableSi114xInterrupt ()$/;"	f
+FALSE	./Si114x_types.h	72;"	d
+FLT_TO_FX20	./si114x_functions.c	525;"	d	file:
+FORCE_ROUND_16	./si114x_functions.c	716;"	d	file:
+FX20_BAD_VALUE	./si114x_functions.c	527;"	d	file:
+FX20_ONE	./si114x_functions.c	526;"	d	file:
+HANDLE	./Si114x_types.h	/^typedef void *            HANDLE;$/;"	t
+HSIG_EN	./Si114x_functions.h	344;"	d
+HW_KEY_VAL0	./Si114x_functions.h	395;"	d
+HeartRateMonitor_Configure	./HRM_Config.c	/^int32_t HeartRateMonitor_Configure(HrmConfiguration_t *configuration)$/;"	f
+HeartRateMonitor_DisableInterrupts	./HRM_Config.c	/^int HeartRateMonitor_DisableInterrupts(void)$/;"	f
+HeartRateMonitor_EnableInterrupts	./HRM_Config.c	/^int HeartRateMonitor_EnableInterrupts(void)$/;"	f
+HeartRateMonitor_Pause	./HRM_Config.c	/^int32_t HeartRateMonitor_Pause(void)$/;"	f
+HeartRateMonitor_Run	./HRM_Config.c	/^int32_t HeartRateMonitor_Run(void)$/;"	f
+HrmConfiguration	./HRM_Config.c	/^typedef struct HrmConfiguration$/;"	s	file:
+HrmConfiguration_t	./HRM_Config.c	/^} HrmConfiguration_t;$/;"	t	typeref:struct:HrmConfiguration	file:
+ICG_INTMODE	./Si114x_functions.h	141;"	d
+ICG_INTOE	./Si114x_functions.h	140;"	d
+IE_ALL	./Si114x_functions.h	173;"	d
+IE_ALS_ENTER_WIN	./Si114x_functions.h	151;"	d
+IE_ALS_EVRYSAMPLE	./Si114x_functions.h	149;"	d
+IE_ALS_EXIT_WIN	./Si114x_functions.h	150;"	d
+IE_ALS_NONE	./Si114x_functions.h	148;"	d
+IE_CMD	./Si114x_functions.h	171;"	d
+IE_NONE	./Si114x_functions.h	146;"	d
+IE_PS1	./Si114x_functions.h	157;"	d
+IE_PS1_CROSS_TH	./Si114x_functions.h	155;"	d
+IE_PS1_EVRYSAMPLE	./Si114x_functions.h	154;"	d
+IE_PS1_EXCEED_TH	./Si114x_functions.h	156;"	d
+IE_PS1_NONE	./Si114x_functions.h	153;"	d
+IE_PS2	./Si114x_functions.h	163;"	d
+IE_PS2_CROSS_TH	./Si114x_functions.h	161;"	d
+IE_PS2_EVRYSAMPLE	./Si114x_functions.h	160;"	d
+IE_PS2_EXCEEED_TH	./Si114x_functions.h	162;"	d
+IE_PS2_NONE	./Si114x_functions.h	159;"	d
+IE_PS3	./Si114x_functions.h	169;"	d
+IE_PS3_CROSS_TH	./Si114x_functions.h	167;"	d
+IE_PS3_EVRYSAMPLE	./Si114x_functions.h	166;"	d
+IE_PS3_EXCEED_TH	./Si114x_functions.h	168;"	d
+IE_PS3_NONE	./Si114x_functions.h	165;"	d
+IM1_ALS_EVRYSAMPLE	./Si114x_functions.h	178;"	d
+IM1_ALS_IR_ENTER	./Si114x_functions.h	182;"	d
+IM1_ALS_IR_EXIT	./Si114x_functions.h	181;"	d
+IM1_ALS_NONE	./Si114x_functions.h	177;"	d
+IM1_ALS_VIS_ENTER	./Si114x_functions.h	180;"	d
+IM1_ALS_VIS_EXIT	./Si114x_functions.h	179;"	d
+IM1_NONE	./Si114x_functions.h	176;"	d
+IM1_PS1_CROSS_TH	./Si114x_functions.h	186;"	d
+IM1_PS1_EVRYSAMPLE	./Si114x_functions.h	185;"	d
+IM1_PS1_EXCEED_TH	./Si114x_functions.h	187;"	d
+IM1_PS1_NONE	./Si114x_functions.h	184;"	d
+IM1_PS2_CROSS_TH	./Si114x_functions.h	191;"	d
+IM1_PS2_EVRYSAMPLE	./Si114x_functions.h	190;"	d
+IM1_PS2_EXCEED_TH	./Si114x_functions.h	192;"	d
+IM1_PS2_NONE	./Si114x_functions.h	189;"	d
+IM2_PS3_CROSS_TH	./Si114x_functions.h	198;"	d
+IM2_PS3_EVRYSAMPLE	./Si114x_functions.h	197;"	d
+IM2_PS3_EXCEED_TH	./Si114x_functions.h	199;"	d
+IM2_PS3_NONE	./Si114x_functions.h	196;"	d
+INCLUDE_SI114X_CALIBRATIONCODE	./si114x_functions.c	19;"	d	file:
+INCLUDE_SI114X_CALIBRATIONCODE	./si114x_functions.c	531;"	d	file:
+IRQ_QUEUE_SIZE	./si114x_sys_out.c	30;"	d	file:
+IrqQueue	./si114x_sys_out.c	/^static u8 IrqQueue[IRQ_QUEUE_SIZE];$/;"	v	file:
+LED1_EN	./Si114x_functions.h	259;"	d
+LED2_EN	./Si114x_functions.h	260;"	d
+LED3_EN	./Si114x_functions.h	261;"	d
+LEDI_000	./Si114x_functions.h	207;"	d
+LEDI_006	./Si114x_functions.h	208;"	d
+LEDI_011	./Si114x_functions.h	209;"	d
+LEDI_022	./Si114x_functions.h	210;"	d
+LEDI_045	./Si114x_functions.h	211;"	d
+LEDI_067	./Si114x_functions.h	212;"	d
+LEDI_090	./Si114x_functions.h	213;"	d
+LEDI_112	./Si114x_functions.h	214;"	d
+LEDI_135	./Si114x_functions.h	215;"	d
+LEDI_157	./Si114x_functions.h	216;"	d
+LEDI_180	./Si114x_functions.h	217;"	d
+LEDI_202	./Si114x_functions.h	218;"	d
+LEDI_224	./Si114x_functions.h	219;"	d
+LEDI_269	./Si114x_functions.h	220;"	d
+LEDI_314	./Si114x_functions.h	221;"	d
+LEDI_359	./Si114x_functions.h	222;"	d
+LED_DRV65	./si114x_functions.c	545;"	d	file:
+LIRPD_ADCHI_IRLED	./si114x_functions.c	544;"	d	file:
+LSB	./Si114x_types.h	36;"	d
+MSB	./Si114x_types.h	37;"	d
+MUX_INT	./Si114x_functions.h	367;"	d
+MUX_LARGE_IR	./Si114x_functions.h	364;"	d
+MUX_LED1	./Si114x_functions.h	368;"	d
+MUX_LED2	./Si114x_functions.h	370;"	d
+MUX_NO_PHOTO_DIODE	./Si114x_functions.h	365;"	d
+MUX_SMALL_IR	./Si114x_functions.h	362;"	d
+MUX_VDD	./Si114x_functions.h	371;"	d
+MUX_VIS	./Si114x_functions.h	363;"	d
+MUX_VSS	./Si114x_functions.h	369;"	d
+MUX_VTEMP	./Si114x_functions.h	366;"	d
+NOT_PS_MEAS_MODE	./Si114x_functions.h	342;"	d
+NO_LED	./Si114x_functions.h	258;"	d
+NULL	./Si114x_types.h	76;"	d
+NULL	./si114x_functions.c	20;"	d	file:
+PARAM_ADC_OFFSET	./Si114x_functions.h	129;"	d
+PARAM_ALSIR_ADC_CLKDIV	./Si114x_functions.h	133;"	d
+PARAM_ALSIR_ADC_COUNTER	./Si114x_functions.h	132;"	d
+PARAM_ALSIR_ADC_GAIN	./Si114x_functions.h	134;"	d
+PARAM_ALSIR_ADC_MISC	./Si114x_functions.h	135;"	d
+PARAM_ALSVIS_ADC_CLKDIV	./Si114x_functions.h	122;"	d
+PARAM_ALSVIS_ADC_COUNTER	./Si114x_functions.h	121;"	d
+PARAM_ALSVIS_ADC_GAIN	./Si114x_functions.h	123;"	d
+PARAM_ALSVIS_ADC_MISC	./Si114x_functions.h	124;"	d
+PARAM_ALS_ENCODING	./Si114x_functions.h	110;"	d
+PARAM_ALS_HISTORY	./Si114x_functions.h	128;"	d
+PARAM_ALS_HYST	./Si114x_functions.h	125;"	d
+PARAM_AUX_ADC_MUX	./Si114x_functions.h	120;"	d
+PARAM_CH_LIST	./Si114x_functions.h	105;"	d
+PARAM_FILTER_EN	./Si114x_functions.h	108;"	d
+PARAM_I2C_ADDR	./Si114x_functions.h	104;"	d
+PARAM_IR_ADC_MUX	./Si114x_functions.h	119;"	d
+PARAM_LED_RECOVERY	./Si114x_functions.h	131;"	d
+PARAM_PS1_ADC_MUX	./Si114x_functions.h	111;"	d
+PARAM_PS2_ADC_MUX	./Si114x_functions.h	112;"	d
+PARAM_PS3_ADC_MUX	./Si114x_functions.h	113;"	d
+PARAM_PSLED12_SELECT	./Si114x_functions.h	106;"	d
+PARAM_PSLED3_SELECT	./Si114x_functions.h	107;"	d
+PARAM_PS_ADC_CLKDIV	./Si114x_functions.h	115;"	d
+PARAM_PS_ADC_COUNTER	./Si114x_functions.h	114;"	d
+PARAM_PS_ADC_GAIN	./Si114x_functions.h	116;"	d
+PARAM_PS_ADC_MISC	./Si114x_functions.h	117;"	d
+PARAM_PS_ENCODING	./Si114x_functions.h	109;"	d
+PARAM_PS_HISTORY	./Si114x_functions.h	127;"	d
+PARAM_PS_HYST	./Si114x_functions.h	126;"	d
+PARAM_SLEEP_CTRL	./Si114x_functions.h	130;"	d
+PARAM_VIS_ADC_MUX	./Si114x_functions.h	118;"	d
+PS1_LSB	./Si114x_functions.h	277;"	d
+PS1_TASK	./Si114x_functions.h	226;"	d
+PS2_LSB	./Si114x_functions.h	278;"	d
+PS2_TASK	./Si114x_functions.h	227;"	d
+PS3_LSB	./Si114x_functions.h	279;"	d
+PS3_TASK	./Si114x_functions.h	228;"	d
+PS_ENCODING_MASK	./Si114x_functions.h	280;"	d
+PS_MEAS_MODE	./Si114x_functions.h	343;"	d
+PT_BOOL	./Si114x_types.h	/^typedef s8                PT_BOOL;$/;"	t
+PT_RESULT	./Si114x_types.h	/^typedef s16               PT_RESULT;$/;"	t
+RANGE_EN	./Si114x_functions.h	345;"	d
+RECCNT_001	./Si114x_functions.h	239;"	d
+RECCNT_007	./Si114x_functions.h	240;"	d
+RECCNT_015	./Si114x_functions.h	241;"	d
+RECCNT_031	./Si114x_functions.h	242;"	d
+RECCNT_063	./Si114x_functions.h	243;"	d
+RECCNT_127	./Si114x_functions.h	244;"	d
+RECCNT_255	./Si114x_functions.h	245;"	d
+RECCNT_511	./Si114x_functions.h	246;"	d
+REG_ALS_HI_TH_LSB	./Si114x_functions.h	65;"	d
+REG_ALS_HI_TH_MSB	./Si114x_functions.h	66;"	d
+REG_ALS_IR_DATA0	./Si114x_functions.h	81;"	d
+REG_ALS_IR_DATA1	./Si114x_functions.h	82;"	d
+REG_ALS_LO_TH_LSB	./Si114x_functions.h	63;"	d
+REG_ALS_LO_TH_MSB	./Si114x_functions.h	64;"	d
+REG_ALS_RATE	./Si114x_functions.h	61;"	d
+REG_ALS_VIS_DATA0	./Si114x_functions.h	79;"	d
+REG_ALS_VIS_DATA1	./Si114x_functions.h	80;"	d
+REG_AUX_DATA0	./Si114x_functions.h	89;"	d
+REG_AUX_DATA1	./Si114x_functions.h	90;"	d
+REG_CHIP_STAT	./Si114x_functions.h	93;"	d
+REG_COMMAND	./Si114x_functions.h	76;"	d
+REG_HW_KEY	./Si114x_functions.h	59;"	d
+REG_INT_CFG	./Si114x_functions.h	55;"	d
+REG_IRQ_ENABLE	./Si114x_functions.h	56;"	d
+REG_IRQ_MODE1	./Si114x_functions.h	57;"	d
+REG_IRQ_MODE2	./Si114x_functions.h	58;"	d
+REG_IRQ_STATUS	./Si114x_functions.h	78;"	d
+REG_MEAS_RATE	./Si114x_functions.h	60;"	d
+REG_MEAS_RATE_LSB	./Si114x_functions.h	100;"	d
+REG_MEAS_RATE_MSB	./Si114x_functions.h	101;"	d
+REG_PARAM_OUT	./Si114x_functions.h	91;"	d
+REG_PARAM_RD	./Si114x_functions.h	92;"	d
+REG_PARAM_WR	./Si114x_functions.h	75;"	d
+REG_PART_ID	./Si114x_functions.h	52;"	d
+REG_PS1_DATA0	./Si114x_functions.h	83;"	d
+REG_PS1_DATA1	./Si114x_functions.h	84;"	d
+REG_PS1_TH_LSB	./Si114x_functions.h	69;"	d
+REG_PS1_TH_MSB	./Si114x_functions.h	70;"	d
+REG_PS2_DATA0	./Si114x_functions.h	85;"	d
+REG_PS2_DATA1	./Si114x_functions.h	86;"	d
+REG_PS2_TH_LSB	./Si114x_functions.h	71;"	d
+REG_PS2_TH_MSB	./Si114x_functions.h	72;"	d
+REG_PS3_DATA0	./Si114x_functions.h	87;"	d
+REG_PS3_DATA1	./Si114x_functions.h	88;"	d
+REG_PS3_TH_LSB	./Si114x_functions.h	73;"	d
+REG_PS3_TH_MSB	./Si114x_functions.h	74;"	d
+REG_PS_LED21	./Si114x_functions.h	67;"	d
+REG_PS_LED3	./Si114x_functions.h	68;"	d
+REG_PS_RATE	./Si114x_functions.h	62;"	d
+REG_RESPONSE	./Si114x_functions.h	77;"	d
+REG_REV_ID	./Si114x_functions.h	53;"	d
+REG_SEQ_ID	./Si114x_functions.h	54;"	d
+REG_UCOEF0	./Si114x_functions.h	95;"	d
+REG_UCOEF1	./Si114x_functions.h	96;"	d
+REG_UCOEF2	./Si114x_functions.h	97;"	d
+REG_UCOEF3	./Si114x_functions.h	98;"	d
+S16	./Si114x_types.h	/^typedef signed short      S16;$/;"	t
+S32	./Si114x_types.h	/^typedef signed int        S32;$/;"	t
+S8	./Si114x_types.h	/^typedef signed char       S8;$/;"	t
+SEL_LED1_PS1	./Si114x_functions.h	262;"	d
+SEL_LED1_PS2	./Si114x_functions.h	265;"	d
+SEL_LED1_PS3	./Si114x_functions.h	268;"	d
+SEL_LED2_PS1	./Si114x_functions.h	263;"	d
+SEL_LED2_PS2	./Si114x_functions.h	266;"	d
+SEL_LED2_PS3	./Si114x_functions.h	269;"	d
+SEL_LED3_PS1	./Si114x_functions.h	264;"	d
+SEL_LED3_PS2	./Si114x_functions.h	267;"	d
+SEL_LED3_PS3	./Si114x_functions.h	270;"	d
+SI114X_CAL_S	./Si114x_functions.h	/^} SI114X_CAL_S;$/;"	t	typeref:struct:__anon1
+SI114X_FUNCTIONS_H	./Si114x_functions.h	18;"	d
+SI114X_SYS_OUT	./si114x_sys_out.h	15;"	d
+SI114X_TYPES_H__	./Si114x_types.h	3;"	d
+SIRPD_ADCHI_IRLED	./si114x_functions.c	539;"	d	file:
+SIRPD_ADCLO_IRLED	./si114x_functions.c	540;"	d	file:
+SIRPD_ADCLO_WHLED	./si114x_functions.c	541;"	d	file:
+SLEEP_DISABLED	./Si114x_functions.h	399;"	d
+STRING	./Si114x_types.h	/^typedef char *            STRING;$/;"	t
+Si114xAlsForce	./si114x_functions.c	/^s16 Si114xAlsForce  (HANDLE si114x_handle) {return _sendCmd(si114x_handle,0x06);}$/;"	f
+Si114xBlockRead	./si114x_sys_out.c	/^int16_t Si114xBlockRead(HANDLE si114x_handle,$/;"	f
+Si114xBlockWrite	./si114x_sys_out.c	/^int16_t Si114xBlockWrite(HANDLE si114x_handle,$/;"	f
+Si114xClose	./si114x_sys_out.c	/^s16 Si114xClose(HANDLE si114x_handle)$/;"	f
+Si114xInit	./si114x_sys_out.c	/^s16 Si114xInit(void *port, int options, HANDLE *si114x_handle)$/;"	f
+Si114xIrqQueueNumentries	./si114x_sys_out.c	/^s16 Si114xIrqQueueNumentries(HANDLE si114x_handle)$/;"	f
+Si114xIrqQueue_Clear	./si114x_sys_out.c	/^s16 Si114xIrqQueue_Clear(HANDLE si114x_handle)$/;"	f
+Si114xIrqQueue_Get	./si114x_sys_out.c	/^s16 Si114xIrqQueue_Get(HANDLE si114x_handle, SI114X_IRQ_SAMPLE *samples)$/;"	f
+Si114xIrqQueue_Put	./si114x_sys_out.c	/^static s16 Si114xIrqQueue_Put(SI114X_IRQ_SAMPLE *samples)$/;"	f	file:
+Si114xNop	./si114x_functions.c	/^s16 Si114xNop       (HANDLE si114x_handle) {return _sendCmd(si114x_handle,0x00);}$/;"	f
+Si114xParamRead	./si114x_functions.c	/^s16 Si114xParamRead(HANDLE si114x_handle, u8 address)$/;"	f
+Si114xParamSet	./si114x_functions.c	/^s16 Si114xParamSet(HANDLE si114x_handle, u8 address, u8 data)$/;"	f
+Si114xPauseAll	./si114x_functions.c	/^s16 Si114xPauseAll(HANDLE si114x_handle)$/;"	f
+Si114xPortConfig	./si114x_sys_out.h	/^typedef struct Si114xPortConfig$/;"	s
+Si114xPortConfig_t	./si114x_sys_out.h	/^} Si114xPortConfig_t;$/;"	t	typeref:struct:Si114xPortConfig
+Si114xProcessIrq	./si114x_sys_out.c	/^s16 Si114xProcessIrq(HANDLE si114x_handle, u16 timestamp)$/;"	f
+Si114xPsAlsAuto	./si114x_functions.c	/^s16 Si114xPsAlsAuto (HANDLE si114x_handle) {return _sendCmd(si114x_handle,0x0F);}$/;"	f
+Si114xPsAlsForce	./si114x_functions.c	/^s16 Si114xPsAlsForce(HANDLE si114x_handle) {return _sendCmd(si114x_handle,0x07);}$/;"	f
+Si114xPsForce	./si114x_functions.c	/^s16 Si114xPsForce   (HANDLE si114x_handle) {return _sendCmd(si114x_handle,0x05);}$/;"	f
+Si114xReadFromRegister	./si114x_sys_out.c	/^int16_t Si114xReadFromRegister(HANDLE si114x_handle, uint8_t address)$/;"	f
+Si114xReset	./si114x_functions.c	/^s16 Si114xReset(HANDLE si114x_handle)$/;"	f
+Si114xSysReset	./si114x_sys_out.c	/^s16 Si114xSysReset(HANDLE si114x_handle)$/;"	f
+Si114xWriteToRegister	./si114x_sys_out.c	/^int16_t Si114xWriteToRegister(HANDLE si114x_handle, uint8_t address, uint8_t data)$/;"	f
+Si114x_i2c_smbus_read_byte_data	./si114x_sys_out.c	/^static s16 Si114x_i2c_smbus_read_byte_data(HANDLE si114x_handle, u8 address, u8 *data, bool block)$/;"	f	file:
+Si114x_i2c_smbus_read_i2c_block_data	./si114x_sys_out.c	/^static s16 Si114x_i2c_smbus_read_i2c_block_data(HANDLE si114x_handle, u8 address, u8 length, u8* data, bool block)$/;"	f	file:
+Si114x_i2c_smbus_write_byte_data	./si114x_sys_out.c	/^static s16 Si114x_i2c_smbus_write_byte_data(HANDLE si114x_handle, u8 address, u8 data, bool block)$/;"	f	file:
+Si114x_i2c_smbus_write_i2c_block_data	./si114x_sys_out.c	/^static s16 Si114x_i2c_smbus_write_i2c_block_data(HANDLE si114x_handle, u8 address, u8 length, u8 const* data, bool block)$/;"	f	file:
+TRUE	./Si114x_types.h	68;"	d
+U16	./Si114x_types.h	/^typedef unsigned short    U16;$/;"	t
+U32	./Si114x_types.h	/^typedef unsigned int      U32;$/;"	t
+U8	./Si114x_types.h	/^typedef unsigned char     U8;$/;"	t
+Uncompress	./si114x_functions.c	/^u16 Uncompress(u8 input) \/\/ It is important for the input to be an unsigned 8-bit.$/;"	f
+VISPD_ADCHI_WHLED	./si114x_functions.c	542;"	d	file:
+VISPD_ADCLO_WHLED	./si114x_functions.c	543;"	d	file:
+_PsAlsPause	./si114x_functions.c	/^static s16 _PsAlsPause (HANDLE si114x_handle) $/;"	f	file:
+_handle	./si114x_sys_out.c	/^static Si114xPortConfig_t _handle;$/;"	v	file:
+_sendCmd	./si114x_functions.c	/^static s16 _sendCmd(HANDLE si114x_handle, u8 command)$/;"	f	file:
+_waitUntilSleep	./si114x_functions.c	/^static s16 _waitUntilSleep(HANDLE si114x_handle)$/;"	f	file:
+adcGain	./HRM_Config.c	/^  int16_t adcGain;$/;"	m	struct:HrmConfiguration	file:
+adcMisc	./HRM_Config.c	/^  int16_t adcMisc;$/;"	m	struct:HrmConfiguration	file:
+adcMux	./HRM_Config.c	/^  int16_t adcMux;					\/\/bits 15:12 = unused, bits 11:8=ps3, bits 7:4=ps2, bits 3:0=ps1$/;"	m	struct:HrmConfiguration	file:
+adcrange_ratio	./Si114x_functions.h	/^    u32     adcrange_ratio;$/;"	m	struct:__anon1
+adcrange_ratio	./si114x_functions.c	/^static u32 adcrange_ratio(u8 *buffer)$/;"	f	file:
+align	./si114x_functions.c	/^static s8 align( u32 *value_p, s8 direction )$/;"	f	file:
+b0	./Si114x_types.h	38;"	d
+cal_index	./si114x_functions.c	/^static s16 cal_index( u8 *buffer )$/;"	f	file:
+cal_ref_t	./si114x_functions.c	/^struct cal_ref_t $/;"	s	file:
+calref	./si114x_functions.c	/^struct cal_ref_t calref[2] =$/;"	v	typeref:struct:cal_ref_t
+code	./Si114x_types.h	32;"	d
+collect	./si114x_functions.c	/^static u32 collect(u8 *buffer, u8 msb_addr, u8 lsb_addr, u8 alignment)$/;"	f	file:
+decode	./si114x_functions.c	/^static u32 decode(u32 input)$/;"	f	file:
+defaultWristHRMConfig	./HRM_Config.c	/^HrmConfiguration_t defaultWristHRMConfig = {$/;"	v
+delay_10ms	./si114x_sys_out.c	/^void delay_10ms(void)$/;"	f
+delay_1ms	./si114x_sys_out.c	/^void delay_1ms(void)$/;"	f
+fx20_divide	./si114x_functions.c	/^static u32 fx20_divide( struct operand_t *operand_p ) $/;"	f	file:
+fx20_multiply	./si114x_functions.c	/^static u32 fx20_multiply( struct operand_t *operand_p )$/;"	f	file:
+fx20_round	./si114x_functions.c	/^static void fx20_round$/;"	f	file:
+i2cAddress	./si114x_sys_out.h	/^  uint8_t           i2cAddress; \/**< I2C address of Si114x *\/$/;"	m	struct:Si114xPortConfig
+i2cPort	./si114x_sys_out.h	/^  I2C_TypeDef       *i2cPort;   \/**< I2C port Si114x is connected to *\/$/;"	m	struct:Si114xPortConfig
+irpd_correction	./Si114x_functions.h	/^    u32     irpd_correction;$/;"	m	struct:__anon1
+irpd_correction	./si114x_functions.c	/^static u32 irpd_correction(u8 *buffer)$/;"	f	file:
+irqPin	./si114x_sys_out.h	/^  int               irqPin;     \/**< Pin for Si114x INT pin *\/$/;"	m	struct:Si114xPortConfig
+irqPort	./si114x_sys_out.h	/^  GPIO_Port_TypeDef irqPort;    \/**< Port for Si114x INT pin *\/$/;"	m	struct:Si114xPortConfig
+irqQueueGetIndex	./si114x_sys_out.c	/^static u16 irqQueueGetIndex = 0;$/;"	v	file:
+irqQueuePutIndex	./si114x_sys_out.c	/^static u16 irqQueuePutIndex = 0;$/;"	v	file:
+irqSequence	./si114x_sys_out.c	/^static uint16_t irqSequence = 0;$/;"	v	file:
+irsize_ratio	./Si114x_functions.h	/^    u32     irsize_ratio;$/;"	m	struct:__anon1
+irsize_ratio	./si114x_functions.c	/^static u32 irsize_ratio(u8 *buffer)$/;"	f	file:
+ledCurrent	./HRM_Config.c	/^  int16_t ledCurrent;	      \/**< bits 15:12 = unused, bits 11:8=led3 current, bits 7:4=led2 current, bits 3:0=led1 current *\/$/;"	m	struct:HrmConfiguration	file:
+ledi_65ma	./si114x_functions.c	/^    u32 ledi_65ma;$/;"	m	struct:cal_ref_t	file:
+ledi_ratio	./Si114x_functions.h	/^    u32     ledi_ratio;$/;"	m	struct:__anon1
+ledi_ratio	./si114x_functions.c	/^static u32 ledi_ratio(u8 *buffer)$/;"	f	file:
+lirpd_adchi_irled	./si114x_functions.c	/^    u32 lirpd_adchi_irled;$/;"	m	struct:cal_ref_t	file:
+measurementRate	./HRM_Config.c	/^  int16_t measurementRate;   \/**< Always compressed. The algorithm will read uv_part from the chip and then program the chip with correct measurementRate accordingly.*\/$/;"	m	struct:HrmConfiguration	file:
+op1	./si114x_functions.c	/^   u32 op1; $/;"	m	struct:operand_t	file:
+op2	./si114x_functions.c	/^   u32 op2;$/;"	m	struct:operand_t	file:
+operand_t	./si114x_functions.c	/^struct operand_t$/;"	s	file:
+psAlign	./HRM_Config.c	/^  int16_t psAlign;$/;"	m	struct:HrmConfiguration	file:
+psLedSelect	./HRM_Config.c	/^  int16_t psLedSelect;$/;"	m	struct:HrmConfiguration	file:
+s16	./Si114x_types.h	/^    s16  s16[2];$/;"	m	union:uu32
+s16	./Si114x_types.h	/^    s16 s16;$/;"	m	union:uu16
+s16	./Si114x_types.h	/^typedef signed short      s16;$/;"	t
+s32	./Si114x_types.h	/^    s32  s32;$/;"	m	union:uu32
+s32	./Si114x_types.h	/^typedef signed int        s32;$/;"	t
+s8	./Si114x_types.h	/^    s8   s8[4];$/;"	m	union:uu32
+s8	./Si114x_types.h	/^    s8  s8[2];$/;"	m	union:uu16
+s8	./Si114x_types.h	/^typedef signed char       s8;$/;"	t
+shift_left	./si114x_functions.c	/^static void shift_left(u32 *value_p, s8 shift)$/;"	f	file:
+si114x_get_cal_index	./si114x_functions.c	/^static s16 si114x_get_cal_index( HANDLE si114x_handle, u8 *buffer )$/;"	f	file:
+si114x_get_calibration	./si114x_functions.c	/^s16 si114x_get_calibration( HANDLE si114x_handle, SI114X_CAL_S *si114x_cal, char security)$/;"	f
+si114x_set_ucoef	./si114x_functions.c	/^s16 si114x_set_ucoef( HANDLE si114x_handle, u8 *input_ucoef, SI114X_CAL_S *si114x_cal )$/;"	f
+sirpd_adchi_irled	./si114x_functions.c	/^    u32 sirpd_adchi_irled;$/;"	m	struct:cal_ref_t	file:
+sirpd_adclo_irled	./si114x_functions.c	/^    u32 sirpd_adclo_irled;$/;"	m	struct:cal_ref_t	file:
+sirpd_adclo_whled	./si114x_functions.c	/^    u32 sirpd_adclo_whled;$/;"	m	struct:cal_ref_t	file:
+tasklist	./HRM_Config.c	/^  int16_t tasklist;$/;"	m	struct:HrmConfiguration	file:
+u16	./Si114x_types.h	/^    u16  u16[2];$/;"	m	union:uu32
+u16	./Si114x_types.h	/^    u16 u16;$/;"	m	union:uu16
+u16	./Si114x_types.h	/^typedef unsigned short    u16;$/;"	t
+u32	./Si114x_types.h	/^    u32  u32;$/;"	m	union:uu32
+u32	./Si114x_types.h	/^typedef unsigned int      u32;$/;"	t
+u8	./Si114x_types.h	/^    u8   u8[4];$/;"	m	union:uu32
+u8	./Si114x_types.h	/^    u8  u8[2];$/;"	m	union:uu16
+u8	./Si114x_types.h	/^typedef unsigned char     u8;$/;"	t
+ucoef	./si114x_functions.c	/^    u8  ucoef[4];$/;"	m	struct:cal_ref_t	file:
+ucoef_p	./Si114x_functions.h	/^    u8      *ucoef_p;$/;"	m	struct:__anon1
+uu16	./Si114x_types.h	/^    uu16 uu16[2];$/;"	m	union:uu32
+uu16	./Si114x_types.h	/^typedef union uu16$/;"	u
+uu16	./Si114x_types.h	/^} uu16;$/;"	t	typeref:union:uu16
+uu32	./Si114x_types.h	/^typedef union uu32$/;"	u
+uu32	./Si114x_types.h	/^} uu32;$/;"	t	typeref:union:uu32
+vispd_adchi_whled	./si114x_functions.c	/^    u32 vispd_adchi_whled;$/;"	m	struct:cal_ref_t	file:
+vispd_adclo_whled	./si114x_functions.c	/^    u32 vispd_adclo_whled;$/;"	m	struct:cal_ref_t	file:
+vispd_correction	./Si114x_functions.h	/^    u32     vispd_correction;$/;"	m	struct:__anon1
+vispd_correction	./si114x_functions.c	/^static u32 vispd_correction(u8 *buffer)$/;"	f	file:
+xdata	./Si114x_types.h	33;"	d
